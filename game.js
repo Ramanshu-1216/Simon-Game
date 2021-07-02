@@ -31,6 +31,13 @@ $(document).keypress(function(event){
     }
 });
 
+$("#level-title").click(function(){
+    if(!hasGameStarted){
+        newSequence();
+        hasGameStarted = true;
+    }
+});
+
 
 
 
